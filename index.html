@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio | Victoria Zabala</title>
+</head>
+
+<body>
+  <!-- Bouton retour haut -->
+  <button class="scroll-to-top" id="scrollTop" aria-label="Retour en haut">↑</button>
+  
+
+  <!-- Arrière-plan animé -->
+  <div class="animated-bg" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+
+  <!-- En-tête -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Victoria Z.</a>
+      
+      <!-- Menu hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#apropos" class="nav-link">À propos</a></li>
+          <li><a href="#projets" class="nav-link">Projets</a></li>
+          <li><a href="#objectifs" class="nav-link">Objectifs</a></li>
+          <li><a href="#parcours" class="nav-link">Parcours</a></li>
+          <li><a href="#langues" class="nav-link">Langues</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section Hero -->
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Portfolio de stage</p>
+        <h1>Création web étudiante avec une touche graphique</h1>
+        <p class="hero-subtitle">Je transforme des idées en interfaces élégantes et fonctionnelles. Passionnée par le design web et l'expérience utilisateur.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Me contacter</a>
+          <a class="btn btn-secondary" href="#projets">Voir mes projets</a>
+        </div>
+      </div>
+      
+
+        <div class="hero-panel">
+          <div class="panel-flag">Stage 2026</div>
+          <p class="panel-title">Web design & identité</p>
+          <p class="panel-text">Mon travail se concentre sur des interfaces simples, une mise en page lisible et une expérience utilisateur soignée.</p>
+          <div class="panel-info">
+            <span>15 ans</span>
+            <span>Seconde</span>
+            <span>HTML / CSS</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="section container">
+      <div class="section-head">
+        <h2>À propos</h2>
+        <p>Je suis une élève motivée, curieuse des métiers du numérique et engagée dans la création de contenus visuels accessibles et alignés avec les attentes d'un public scolaire.</p>
+      </div>
+      <div class="overview-grid">
+        <article class="card accent-card">
+          <h3>Mon approche</h3>
+          <p>Je mets en avant la lisibilité, le contraste et une organisation claire du contenu pour créer des pages faciles à parcourir.</p>
+        </article>
+        <article class="card">
+          <h3>Compétences clés</h3>
+          <ul>
+            <li>HTML / CSS</li>
+            <li>Design visuel</li>
+            <li>Responsive</li>
+            <li>Canva & Figma</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section Projets modernisée -->
+    <section id="projets" class="section container">
+      <div class="section-head">
+        <h2>Projets</h2>
+        <p>Réalisations personnelles et projets réalisés pendant mes expériences professionnelles.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">🌐</div>
+          <h3>Portfolio en HTML</h3>
+          <p><strong>Qim Info — Juin 2026</strong></p>
+          <p class="project-desc">Création d'un portfolio en HTML et CSS pendant mon stage. Mise en pratique des connaissances en web design avec une mise en page responsive.</p>
+          <div class="tech-badges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">Responsive</span>
+          </div>
+          <a href="#" class="btn btn-small">Voir le projet →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">📱</div>
+          <h3>Gestion Instagram</h3>
+          <p><strong>NCCR Evolving Language — Nov 2024</strong></p>
+          <p class="project-desc">Contribution à la gestion de la page Instagram du campus. Création de contenus visuels et textuels pour promouvoir les activités scientifiques.</p>
+          <div class="tech-badges">
+            <span class="badge">Canva</span>
+            <span class="badge">Design</span>
+            <span class="badge">Content</span>
+          </div>
+          <a href="#" class="btn btn-small">Voir le projet →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">🎨</div>
+          <h3>Design d'identité</h3>
+          <p><strong>Projet personnel</strong></p>
+          <p class="project-desc">Création de palettes, typographies et détails graphiques cohérents. Exploration des principes du design systémique.</p>
+          <div class="tech-badges">
+            <span class="badge">Figma</span>
+            <span class="badge">Design</span>
+            <span class="badge">Branding</span>
+          </div>
+          <a href="#" class="btn btn-small">Voir le projet →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section Objectifs professionnels -->
+    <section id="objectifs" class="section container">
+      <div class="section-head">
+        <h2>Mes objectifs professionnels</h2>
+        <p>Mes ambitions et direction pour ma carrière en web et design.</p>
+      </div>
+      <div class="objectives-grid">
+        <article class="objective-card">
+          <div class="objective-icon">🎯</div>
+          <h3>Web Design</h3>
+          <p>Maîtriser les principes du design web moderne et créer des interfaces esthétiques et fonctionnelles.</p>
+        </article>
+        <article class="objective-card">
+          <div class="objective-icon">💻</div>
+          <h3>Développement Front-end</h3>
+          <p>Approfondrir mes compétences en HTML, CSS et JavaScript pour transformer les designs en sites web interactifs.</p>
+        </article>
+        <article class="objective-card">
+          <div class="objective-icon">✨</div>
+          <h3>UX/UI Design</h3>
+          <p>Concevoir des interfaces intuitives qui résolvent des problèmes réels tout en restant visuellement attrayantes.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section Parcours -->
+    <section id="parcours" class="section container">
+      <div class="section-head">
+        <h2>Parcours scolaire</h2>
+        <p>Je suis en seconde générale et je me prépare à transformer ma passion pour le web en compétences solides.</p>
+      </div>
+      <div class="overview-grid">
+        <article class="card">
+          <h3>Lycée Madame de Staël</h3>
+          <p><strong>Saint-Julien-en-Genevois — 2025-2026</strong></p>
+          <p>Seconde générale et technologique · Section européenne anglais</p>
+        </article>
+        <article class="card accent-card">
+          <h3>Expériences professionnelles</h3>
+          <p><strong>Qim Info</strong> — Juin 2026 (1 semaine)</p>
+          <p>Réalisation d'un portfolio en HTML/CSS, apprentissage des bases du C++</p>
+          <p><strong style="margin-top: 12px;">NCCR Evolving Language</strong> — Novembre 2024 (1 semaine)</p>
+          <p>Gestion Instagram du centre, observation d'expériences scientifiques</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section Langues -->
+    <section id="langues" class="section container">
+      <div class="section-head">
+        <h2>Langues</h2>
+        <p>Maîtrise de plusieurs langues pour une meilleure compréhension des cultures et des projets internationaux.</p>
+      </div>
+      <div class="languages-grid">
+        <div class="language-card">
+          <div class="lang-header">
+            <h3>Espagnol</h3>
+            <span class="lang-level">Maternelle</span>
+          </div>
+          <div class="lang-bar">
+            <div class="lang-fill" style="width: 100%; --color: #1f6ae2;"></div>
+          </div>
+        </div>
+        <div class="language-card">
+          <div class="lang-header">
+            <h3>Français</h3>
+            <span class="lang-level">Bilingue</span>
+          </div>
+          <div class="lang-bar">
+            <div class="lang-fill" style="width: 100%; --color: #1f6ae2;"></div>
+          </div>
+        </div>
+        <div class="language-card">
+          <div class="lang-header">
+            <h3>Anglais</h3>
+            <span class="lang-level">Courant</span>
+          </div>
+          <div class="lang-bar">
+            <div class="lang-fill" style="width: 90%; --color: #5ebe89;"></div>
+          </div>
+        </div>
+        <div class="language-card">
+          <div class="lang-header">
+            <h3>Allemand</h3>
+            <span class="lang-level">Basique</span>
+          </div>
+          <div class="lang-bar">
+            <div class="lang-fill" style="width: 55%; --color: #f4b400;"></div>
+          </div>
+        </div>
+        <div class="language-card">
+          <div class="lang-header">
+            <h3>Moldave</h3>
+            <span class="lang-level">Intermédiaire</span>
+          </div>
+          <div class="lang-bar">
+            <div class="lang-fill" style="width: 70%; --color: #f4b400;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section container contact-section">
+      <div class="section-head">
+        <h2>Prête à collaborer</h2>
+        <p>J'aimerais entendre parler de tes projets. Écris-moi ou contacte-moi via les réseaux.</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-card">
+          <p>Écris-moi à <a href="mailto:vzabalagud5@gmail.com" style="color: var(--secondary); text-decoration: none; font-weight: 600;">vzabalagud5@gmail.com</a></p>
+          <form class="contact-form">
+            <label for="name">Ton prénom</label>
+            <input id="name" type="text" placeholder="Ex : Emma" required />
+            <label for="message">Ton message</label>
+            <textarea id="message" placeholder="Partage tes idées..." rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </form>
+        </div>
+        <div class="contact-socials">
+          <h3>Me trouver</h3>
+          <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">💼</a>
+            <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">📸</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer professionnel -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Portfolio</h4>
+          <p>Victoria Zabala — Élève en seconde générale, passionnée par le web design et l'expérience utilisateur.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p><a href="mailto:vzabalagud5@gmail.com">vzabalagud5@gmail.com</a></p>
+        </div>
+        <div class="footer-section">
+          <h4>Liens rapides</h4>
+          <ul>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Victoria Zabala. Tous droits réservés. Portfolio réalisé avec ❤️ en HTML/CSS/JS.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
